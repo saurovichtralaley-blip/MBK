@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Продажа готового бизнеса МБК-Кредит (СПб)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              mbk: {
+                blue: '#003366', // Deep corporate blue
+                light: '#0055a5',
+                accent: '#ffcc00', // Trust/Gold accent
+                gray: '#f3f4f6',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.2.0?dev",
+          "react-dom": "https://esm.sh/react-dom@18.2.0?dev",
+          "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?dev",
+          "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime?dev",
+          "lucide-react": "https://esm.sh/lucide-react@0.344.0?dev&external=react",
+          "recharts": "https://esm.sh/recharts@2.12.2?dev&external=react,react-dom"
+        }
+      }
+    </script>
+    <style>
+      body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+      .glass-panel {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
